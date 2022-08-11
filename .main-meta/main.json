@@ -1,0 +1,58 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f18146-adcc-channel-grouping-mplab-mcc",
+        "version": "1.0.0",
+        "displayName": "ADCC Channel Grouping using PIC16F18146 Microcontroller",
+        "projectName": "pic16f18146-adcc-channel-grouping-mplab-mcc",
+        "shortDescription": "This code example demonstrates usage of ADCC channel grouping feature in a sensor array application such as smart door mat using PIC Microcontroller. Some compatible PIC16F17146 and PIC16F18146 family of MCUs are: PIC16F17125, PIC16F18125",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.0.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.36.0"
+            }
+        ],
+        "dfp": {
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.14.187"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=5.1.2"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC16F18146",
+                "versionRange": "*"
+            }
+        },
+        "author": "Babashree Ingale",
+        "peripherals": [
+		"ADCC","PWM","TMR0"
+		],
+        "keywords": [
+		"Sensor"
+		],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
